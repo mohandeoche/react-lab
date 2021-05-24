@@ -1,0 +1,33 @@
+.repo-section {
+	padding: 1rem 0;
+	position: relative;
+
+	.section-center {
+		display: grid;
+		justify-items: center;
+		gap: 2rem;
+		div{
+			width: 100% !important;
+		}
+		svg{
+			width:100 !important;
+
+		}
+		.fusioncharts-container{
+			width:100%
+		}
+	}
+
+	@media (min-width: 1200px) {
+		.section-center {
+			grid-template-columns: 2fr 3fr;
+		}
+	}
+
+	@media (min-width: 800px) {
+		.section-center {
+			grid-template-columns: 1fr 1fr;
+		}
+	}
+
+}
